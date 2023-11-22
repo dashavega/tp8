@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+#encabezado{
+    background-color: rgb(148, 56, 56);
+}
+
+body{
+    background-color:  rgb(202, 133, 133);
+}
+.titulo{
+    font-family: 'Oswald', sans-serif;
+}
+#nose{
+    padding: revert;
+
+}
+#cuerpo{
+    padding:0;
+    margin: 0 15%;
+}
+#input{
+    margin: 10px;
+background-color: rgb(238, 14, 6);
+color: antiquewhite;
+padding: 5px;
+border: 1px solid black;
+}
+.div1{
+    margin: 10px;
+
+color: antiquewhite;
+padding: 5px;
+border: 1px solid rgb(238, 236, 236);
+
+
+}
+.casilleros{
+    background-color: rgb(160, 104, 104);
+    color: antiquewhite;
+}
+.boton{
+    text-align: center;
+    background-color: rgb(202, 133, 133);
+    color: antiquewhite;
+    
+}

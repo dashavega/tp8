@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="formulario.css">
+
+<head id="encabezado">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<body>
+    <header id="encabezado">
+        <h1>Carmesi cakes</h1>
+    </header>
+    <main>
+        <form action="/registro" method="post" id="cuerpo">
+
+            <fieldset id="nose">
+                <legend class="titulo">datos personales</legend>
+
+                <div class="div1">
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre"name="nombre"id="input"class="casilleros"required>
+                    <label for="apellido">apellido:</label>
+                    <input type="text"id="apellido"class="casilleros"name="apellido"required>
+                    <label for="num_de_telefono">num de telefono:</label>
+                    <input type="num_de_telefono"id="telefono"name="num_de_telefono"class="casilleros"required>
+
+                </div>
+
+                <div class="div1">
+
+                    <label for="email">email:</label>
+                    <input type="email"id="email"name="email"class="casilleros"required>
+                    <label for="fecha de nac">fecha_de_nacimiento:</label>
+                    <input type="date"id="edad"name="edad"class="casilleros"required>
+                    <label for="DNI">DNI:</label>
+                    <input type="DNI" id="DNI"name="DNI"class="casilleros"required>
+
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend class="titulo">
+                    red social
+                </legend>
+
+                <div class="div1">
+                    <label for="instagram">tienes_cuenta_de_instagram?</label>
+                    <input type="checkbox"class="casilleros" id="instagram"name="instagram"value="instagram">
+                    <label for="instagram">instagram:</label>
+                    <input type="text"class="casilleros"id="instagram"name="instagram"value="instagram">
+
+
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend class="titulo">residencia</legend>
+                <div class="div1">
+                    <label for="provincias">provincia:</label>
+                    <select id="provincia" name="provincias" class="casilleros" required>
+                        <option value="    Buenos Aires."> Buenos Aires.</option>
+                        <option value="Catamarca">Catamarca</option>
+                        <option value="Chaco">Chaco</option>
+                        <option value="Chubut">Chubut</option>
+                        <option value="Córdoba">Córdoba</option>
+                        <option value="Corrientes">Corrientes</option>
+                        <option value="Entre Ríos">Entre Ríos</option>
+                        <option value="Formosa">Formosa</option>
+                        <option value="Jujuy">Jujuy</option>
+                        <option value=" La Pampa
+                            ">La Pampa</option>
+                        <option value="La Rioja">La Rioja</option>
+                        <option value="Mendoza">Mendoza</option>
+                        <option value="Misiones">Misiones</option>
+                        <option value="Neuquén">Neuquén</option>
+                        <option value="Río Negro">Río Negro</option>
+                        <option value="Salta">Salta</option>
+                        <option value="San Juan">San Juan</option>
+                        <option value="San Luis">San Luis</option>
+                        <option value=" Santa Cruz"> Santa Cruz</option>
+                        <option value="Santa Fe">Santa Fe</option>
+                        <option value="Santiago del Estero">Santiago del Estero</option>
+                        <option value="Tierra del Fuego, Antártida e Islas del Atlántico Sur">Tierra del Fuego,
+                            Antártida e Islas del Atlántico Sur</option>
+                        <option value=" Tucumán"> Tucumán</option>
+                    </select>
+
+                    <label for="ciudad">ciudad:</label>
+                    <input type="text" id="ciudad" name="ciudad" class="casilleros" value="ciudad">
+
+
+                </div>
+
+
+            </fieldset>
+
+
+
+            <fieldset id="platos">
+                <legend class="titulo">datos adicionales </legend>
+                <div class="div1">
+                    <label id="plato">pedido</label>
+
+                    <select id="cliente" name="cliente" class="casilleros" required>
+                        <option value="dulce"> dulce</option>
+
+                        <option value="salado">salado</option>
+
+
+
+
+                    </select>
+
+
+                </div>
+                <div class="div1">
+                    <label id="plato">tartas</label>
+
+                    <select id="tartas" name="tartas" class="casilleros" required>
+                        <option value=" trata de fritilla  ">tarta de fritilla</option>
+
+                        <option value="lemonpie">lemonpie </option>
+                        <option value="tata de naranja">tarta de duranzo</option>
+                        <option value="ninguno">ninguno</option>
+
+
+
+
+
+
+                    </select>
+
+
+                </div>
+
+                <div class="div1">
+                    <label id="plato">plato salados </label>
+                    <select id="salado" name="platos salados" class="casilleros" required>
+                        <option value="sanguchitos de miga">sanguchitos de miga</option>
+                        <option value="pizza">pizza</option>
+                        <option value="chipa">chipa</option>
+                        <option value="bizcochos de grasa">bizcochos de grasa</option>
+                        <option value="croasand">croasand</option>
+                        <option value="tortas_fritas">tortas fritas</option>
+                    </select>
+
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend class="titulo">metodo de pago</legend>
+                <div class="div1">
+                    <label id="metodo">metodo de pago</label>
+                    <select id="pago" name="metodo depago" class="casilleros" required>
+                        <option value="mercado pago">mercado pago</option>
+                        <option value="contado">contado</option>
+                        <option value="tarjeta">tarjeta </option>
+                    </select>
+
+
+
+                </div>
+
+            </fieldset>
+            <div class="div1">
+                <label for="ocupacion">esta pasteleria a sido recomendada por otra persona?:</label>
+                <!-- el valor de for es el ID del select-->
+
+                <label for="intereses"></label>
+                <input type="checkbox" id="interes1" name="intereses" value="deportes"> <label for="interes1">si</label>
+                <!-- uso de checkbox (cajas de verificación) -->
+                <input type="checkbox" id="interes2" name="intereses" value="musica"> <label for="interes2">no</label>
+
+
+            </div>
+
+<div>
+    <button class="boton">enviar</button>
+</div>
+
+        </form>
+
+
+
+
+
+
+
+    </main>
+</body>
+
+</html>
